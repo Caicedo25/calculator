@@ -1,1 +1,16 @@
+# 本地工具（便携版 MinGit）
+tools/
 
+# Qt 构建产物
+build*/
+*.o
+*.obj
+*.pro.user*
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile*
+*.exe
+.qmake.stash
+debug/
+release/
